@@ -59,9 +59,30 @@
                     </div>
                 </div>
             </div>
-
-
         </div>
+
+        <div class="row row-cols-1 row-cols-md-2 g-4 mt-3">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="/Img/Cursos/refrigeracion1.jpeg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="/Img/Cursos/refrigeracion2.jpeg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="/Img/Cursos/refrigeracion3.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="/Img/Cursos/refrigeracion4.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+        </div>    
 
     </div>
 

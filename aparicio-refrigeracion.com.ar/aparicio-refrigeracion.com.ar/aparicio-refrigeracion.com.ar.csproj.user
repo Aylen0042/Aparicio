@@ -8,8 +8,8 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
-    <LastActiveSolutionConfig>Debug|Any CPU</LastActiveSolutionConfig>
-    <NameOfLastUsedPublishProfile>C:\Users\Laboratorio\Source\Repos\Aparicio\aparicio-refrigeracion.com.ar\aparicio-refrigeracion.com.ar\Properties\PublishProfiles\IISProfile.pubxml</NameOfLastUsedPublishProfile>
+    <LastActiveSolutionConfig>Release|Any CPU</LastActiveSolutionConfig>
+    <NameOfLastUsedPublishProfile>C:\Users\Laboratorio\source\repos\Aparicio\aparicio-refrigeracion.com.ar\aparicio-refrigeracion.com.ar\Properties\PublishProfiles\IISProfile.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>

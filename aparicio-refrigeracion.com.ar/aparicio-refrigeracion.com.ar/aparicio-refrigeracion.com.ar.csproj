@@ -80,8 +80,14 @@
     <Content Include="Img\Cursos\curso_heladera.jpeg" />
     <Content Include="Img\Cursos\curso_split_automotiz.png" />
     <Content Include="Img\Cursos\flyer_curso.jpeg" />
+    <Content Include="Img\Cursos\flyer_mayo.jpg" />
+    <Content Include="Img\Cursos\flyer_proxInicios.jpeg" />
     <Content Include="Img\Cursos\imagen_refrigeracion.jpg" />
     <Content Include="Img\Cursos\imagen_split.jpg" />
+    <Content Include="Img\Cursos\refrigeracion1.jpeg" />
+    <Content Include="Img\Cursos\refrigeracion2.jpeg" />
+    <Content Include="Img\Cursos\refrigeracion3.jpg" />
+    <Content Include="Img\Cursos\refrigeracion4.jpg" />
     <Content Include="Img\Cursos\split.png" />
     <Content Include="Img\direccion.png" />
     <Content Include="Img\Egresados\egresados_01.jpeg" />
