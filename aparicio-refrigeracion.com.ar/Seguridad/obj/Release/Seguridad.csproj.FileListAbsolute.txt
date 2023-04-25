@@ -1,0 +1,8 @@
+D:\Desarrollo\VS2019\source\repos\aparicio-refrigeracion.com.ar\Seguridad\bin\Release\Seguridad.dll
+D:\Desarrollo\VS2019\source\repos\aparicio-refrigeracion.com.ar\Seguridad\bin\Release\Seguridad.pdb
+D:\Desarrollo\VS2019\source\repos\aparicio-refrigeracion.com.ar\Seguridad\obj\Release\Seguridad.csproj.AssemblyReference.cache
+D:\Desarrollo\VS2019\source\repos\aparicio-refrigeracion.com.ar\Seguridad\obj\Release\Seguridad.Properties.Resources.resources
+D:\Desarrollo\VS2019\source\repos\aparicio-refrigeracion.com.ar\Seguridad\obj\Release\Seguridad.csproj.GenerateResource.cache
+D:\Desarrollo\VS2019\source\repos\aparicio-refrigeracion.com.ar\Seguridad\obj\Release\Seguridad.csproj.CoreCompileInputs.cache
+D:\Desarrollo\VS2019\source\repos\aparicio-refrigeracion.com.ar\Seguridad\obj\Release\Seguridad.dll
+D:\Desarrollo\VS2019\source\repos\aparicio-refrigeracion.com.ar\Seguridad\obj\Release\Seguridad.pdb

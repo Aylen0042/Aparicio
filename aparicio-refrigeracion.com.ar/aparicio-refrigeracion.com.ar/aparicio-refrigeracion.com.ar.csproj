@@ -1,0 +1,455 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2F39B250-BDED-428B-A507-B9D010EA625E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>aparicio_refrigeracion.com.ar</RootNamespace>
+    <AssemblyName>aparicio-refrigeracion.com.ar</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44370</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\AparicioRefrigeracion.mdf" />
+    <Content Include="App_Data\AparicioRefrigeracion_log.ldf">
+      <DependentUpon>AparicioRefrigeracion.mdf</DependentUpon>
+    </Content>
+    <Content Include="Cuenta\InicioSesion.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Img\Cursos\flyer.jpg" />
+    <Content Include="Img\Cursos\flyer1.jpg" />
+    <Content Include="Img\Cursos\flyer2.jpeg" />
+    <Content Include="Img\Cursos\flyer_ AA Automotriz_8_9_2022.jpeg" />
+    <Content Include="Img\Cursos\curso_heladera.jpeg" />
+    <Content Include="Img\Cursos\curso_split_automotiz.png" />
+    <Content Include="Img\Cursos\flyer_curso.jpeg" />
+    <Content Include="Img\Cursos\imagen_refrigeracion.jpg" />
+    <Content Include="Img\Cursos\imagen_split.jpg" />
+    <Content Include="Img\Cursos\split.png" />
+    <Content Include="Img\direccion.png" />
+    <Content Include="Img\Egresados\egresados_01.jpeg" />
+    <Content Include="Img\Egresados\egresados_02.jpeg" />
+    <Content Include="Img\Egresados\egresados_03.jpeg" />
+    <Content Include="Img\Egresados\egresados_04.jpeg" />
+    <Content Include="Img\Egresados\egresados_05.jpeg" />
+    <Content Include="Img\Egresados\egresados_06.jpeg" />
+    <Content Include="Img\Egresados\egresados_07.jpeg" />
+    <Content Include="Img\Egresados\egresados_08.jpeg" />
+    <Content Include="Img\Egresados\egresados_09.jpeg" />
+    <Content Include="Img\Egresados\egresados_10.jpeg" />
+    <Content Include="Img\Egresados\egresados_11.jpeg" />
+    <Content Include="Img\email.png" />
+    <Content Include="Img\facebook.png" />
+    <Content Include="Img\Inicio\automotriz_misiones.jpg" />
+    <Content Include="Img\Inicio\curso_automotriz.png" />
+    <Content Include="Img\Inicio\curso_split.jpg" />
+    <Content Include="Img\Inicio\refrigerados.png" />
+    <Content Include="Img\instagram.png" />
+    <Content Include="Img\Productos\Cilindro_Nitrogeno.jpeg" />
+    <Content Include="Img\Productos\Cilindro_Nitrogeno_Combo_Regulador.jpeg" />
+    <Content Include="Img\Productos\Oxigas.jpeg" />
+    <Content Include="Img\Productos\Productos_Testo.jpeg" />
+    <Content Include="Img\Productos\producto_1.jpg" />
+    <Content Include="Img\Productos\producto_10.jpg" />
+    <Content Include="Img\Productos\producto_11.jpg" />
+    <Content Include="Img\Productos\producto_12.jpg" />
+    <Content Include="Img\Productos\producto_13.jpg" />
+    <Content Include="Img\Productos\producto_14.jpg" />
+    <Content Include="Img\Productos\producto_15.jpg" />
+    <Content Include="Img\Productos\producto_16.jpg" />
+    <Content Include="Img\Productos\producto_17.jpg" />
+    <Content Include="Img\Productos\producto_18.jpg" />
+    <Content Include="Img\Productos\producto_19.jpg" />
+    <Content Include="Img\Productos\producto_2.jpg" />
+    <Content Include="Img\Productos\producto_20.jpg" />
+    <Content Include="Img\Productos\producto_21.jpg" />
+    <Content Include="Img\Productos\producto_22.jpg" />
+    <Content Include="Img\Productos\producto_23.jpg" />
+    <Content Include="Img\Productos\producto_24.jpg" />
+    <Content Include="Img\Productos\producto_25.jpg" />
+    <Content Include="Img\Productos\producto_26.jpg" />
+    <Content Include="Img\Productos\producto_27.jpg" />
+    <Content Include="Img\Productos\producto_28.jpg" />
+    <Content Include="Img\Productos\producto_29.jpg" />
+    <Content Include="Img\Productos\producto_3.jpg" />
+    <Content Include="Img\Productos\producto_30.jpg" />
+    <Content Include="Img\Productos\producto_31.jpg" />
+    <Content Include="Img\Productos\producto_32.jpg" />
+    <Content Include="Img\Productos\producto_33.jpg" />
+    <Content Include="Img\Productos\producto_34.jpg" />
+    <Content Include="Img\Productos\producto_35.jpg" />
+    <Content Include="Img\Productos\producto_36.jpg" />
+    <Content Include="Img\Productos\producto_37.jpg" />
+    <Content Include="Img\Productos\producto_4.jpg" />
+    <Content Include="Img\Productos\producto_5.jpg" />
+    <Content Include="Img\Productos\producto_6.jpg" />
+    <Content Include="Img\Productos\producto_7.jpg" />
+    <Content Include="Img\Productos\producto_8.jpg" />
+    <Content Include="Img\Productos\producto_9.jpg" />
+    <Content Include="Img\Productos\producto_aire inverter.png" />
+    <Content Include="Img\Cursos\curso_automotriz.png" />
+    <Content Include="Img\Cursos\curso_split.png" />
+    <Content Include="Img\aparicio.png" />
+    <Content Include="Img\Inicio\carga_de_gas.png" />
+    <Content Include="Img\Cursos\flyer_automotriz.jpeg" />
+    <Content Include="Img\Cursos\flyer_camiones.jpeg" />
+    <Content Include="Img\Cursos\flyer_heladeras.jpeg" />
+    <Content Include="Img\Cursos\flyer_lavarropas.jpeg" />
+    <Content Include="Img\Inicio\fondo 1.png" />
+    <Content Include="Img\Inicio\fondo 3.jpeg" />
+    <Content Include="Img\Inicio\fondo2.png" />
+    <Content Include="Img\Productos\producto_gas.jpg" />
+    <Content Include="Img\Inicio\heladera.png" />
+    <Content Include="Img\Inicio\instalacion_de_aire.jpg" />
+    <Content Include="Img\Inicio\lavarropa.png" />
+    <Content Include="Img\Cursos\curso_lavarropa.png" />
+    <Content Include="Img\Productos\producto_manifold.png" />
+    <Content Include="Img\Inicio\mantenimiento.jpg" />
+    <Content Include="Img\Productos\Regulador_Nitrogeno.jpeg" />
+    <Content Include="Img\Servicios\carga_refrigerante_heladera.jpg" />
+    <Content Include="Img\Servicios\carga_refrigerante_split.jpg" />
+    <Content Include="Img\Servicios\carga_refrigerante_automotriz.jpg" />
+    <Content Include="Img\Servicios\cassette_aire_acondicionado.jpg" />
+    <Content Include="Img\Servicios\mantenimiento_split.png" />
+    <Content Include="Img\Servicios\pisotecho_aire_acondicionado.jpg" />
+    <Content Include="Img\Servicios\reparacion_automotor.jpeg" />
+    <Content Include="Img\Servicios\reparacion_split.jpg" />
+    <Content Include="Img\Servicios\VRV_aire_acondicionado.jpg" />
+    <Content Include="Img\whatsAapp.png" />
+    <Content Include="Img\youtube.png" />
+    <Content Include="Páginas\Admin\CRUD.aspx" />
+    <Content Include="Páginas\Admin\Matriculados.aspx" />
+    <Content Include="Páginas\Alumnos\egresados.aspx" />
+    <Content Include="Páginas\Alumnos\TecnicosCertificados.aspx" />
+    <Content Include="Páginas\contacto.aspx" />
+    <Content Include="Páginas\CursosOnline\CursosOnline.aspx" />
+    <Content Include="Páginas\Cursos\automotriz.aspx" />
+    <Content Include="Páginas\Cursos\heladera.aspx" />
+    <Content Include="Páginas\Cursos\lavarropa.aspx" />
+    <Content Include="Páginas\Cursos\prox_inicios.aspx" />
+    <Content Include="Páginas\Cursos\transportes_refrigeracion.aspx" />
+    <Content Include="Páginas\Cursos\split-automotriz.aspx" />
+    <Content Include="Páginas\Cursos\split.aspx" />
+    <Content Include="Páginas\Productos\equipos.aspx" />
+    <Content Include="Páginas\Productos\herramientas.aspx" />
+    <Content Include="Páginas\Productos\insumos.aspx" />
+    <Content Include="Páginas\Servicios\carga_refrigerante.aspx" />
+    <Content Include="Páginas\Servicios\instalación.aspx" />
+    <Content Include="Páginas\Servicios\mantenimiento.aspx" />
+    <Content Include="Páginas\Servicios\reparación.aspx" />
+    <Content Include="Páginas\testimonios.aspx" />
+    <Content Include="Videos\video_01.mp4" />
+    <Content Include="Videos\video_02.mp4" />
+    <Content Include="Videos\video_03.mp4" />
+    <Content Include="Videos\video_04.mp4" />
+    <Content Include="Videos\video_05.mp4" />
+    <Content Include="Videos\video_06.mp4" />
+    <Content Include="Videos\video_07.mp4" />
+    <Content Include="Videos\video_08.mp4" />
+    <Content Include="Videos\video_09.mp4" />
+    <Content Include="Videos\video_10.mp4" />
+    <Content Include="Videos\video_curso_aire_automotriz_feb_2023.mp4" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cuenta\InicioSesion.aspx.cs">
+      <DependentUpon>InicioSesion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cuenta\InicioSesion.aspx.designer.cs">
+      <DependentUpon>InicioSesion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Páginas\Admin\Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Páginas\Admin\Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Páginas\Admin\CRUD.aspx.cs">
+      <DependentUpon>CRUD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Páginas\Admin\CRUD.aspx.designer.cs">
+      <DependentUpon>CRUD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Páginas\Admin\Matriculados.aspx.cs">
+      <DependentUpon>Matriculados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Páginas\Admin\Matriculados.aspx.designer.cs">
+      <DependentUpon>Matriculados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Páginas\Alumnos\egresados.aspx.cs">
+      <DependentUpon>egresados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Páginas\Alumnos\egresados.aspx.designer.cs">
+      <DependentUpon>egresados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Páginas\Alumnos\TecnicosCertificados.aspx.cs">
+      <DependentUpon>TecnicosCertificados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Páginas\Alumnos\TecnicosCertificados.aspx.designer.cs">
+      <DependentUpon>TecnicosCertificados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Páginas\contacto.aspx.cs">
+      <DependentUpon>contacto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Páginas\contacto.aspx.designer.cs">
+      <DependentUpon>contacto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Páginas\CursosOnline\CursosOnline.aspx.cs">
+      <DependentUpon>CursosOnline.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Páginas\CursosOnline\CursosOnline.aspx.designer.cs">
+      <DependentUpon>CursosOnline.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Páginas\Cursos\automotriz.aspx.cs">
+      <DependentUpon>automotriz.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Páginas\Cursos\automotriz.aspx.designer.cs">
+      <DependentUpon>automotriz.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Páginas\Cursos\heladera.aspx.cs">
+      <DependentUpon>heladera.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Páginas\Cursos\heladera.aspx.designer.cs">
+      <DependentUpon>heladera.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Páginas\Cursos\lavarropa.aspx.cs">
+      <DependentUpon>lavarropa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Páginas\Cursos\lavarropa.aspx.designer.cs">
+      <DependentUpon>lavarropa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Páginas\Cursos\prox_inicios.aspx.cs">
+      <DependentUpon>prox_inicios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Páginas\Cursos\prox_inicios.aspx.designer.cs">
+      <DependentUpon>prox_inicios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Páginas\Cursos\transportes_refrigeracion.aspx.cs">
+      <DependentUpon>transportes_refrigeracion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Páginas\Cursos\transportes_refrigeracion.aspx.designer.cs">
+      <DependentUpon>transportes_refrigeracion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Páginas\Cursos\split-automotriz.aspx.cs">
+      <DependentUpon>split-automotriz.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Páginas\Cursos\split-automotriz.aspx.designer.cs">
+      <DependentUpon>split-automotriz.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Páginas\Cursos\split.aspx.cs">
+      <DependentUpon>split.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Páginas\Cursos\split.aspx.designer.cs">
+      <DependentUpon>split.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Páginas\Productos\equipos.aspx.cs">
+      <DependentUpon>equipos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Páginas\Productos\equipos.aspx.designer.cs">
+      <DependentUpon>equipos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Páginas\Productos\herramientas.aspx.cs">
+      <DependentUpon>herramientas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Páginas\Productos\herramientas.aspx.designer.cs">
+      <DependentUpon>herramientas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Páginas\Productos\insumos.aspx.cs">
+      <DependentUpon>insumos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Páginas\Productos\insumos.aspx.designer.cs">
+      <DependentUpon>insumos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Páginas\Servicios\carga_refrigerante.aspx.cs">
+      <DependentUpon>carga_refrigerante.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Páginas\Servicios\carga_refrigerante.aspx.designer.cs">
+      <DependentUpon>carga_refrigerante.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Páginas\Servicios\instalación.aspx.cs">
+      <DependentUpon>instalación.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Páginas\Servicios\instalación.aspx.designer.cs">
+      <DependentUpon>instalación.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Páginas\Servicios\mantenimiento.aspx.cs">
+      <DependentUpon>mantenimiento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Páginas\Servicios\mantenimiento.aspx.designer.cs">
+      <DependentUpon>mantenimiento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Páginas\Servicios\reparación.aspx.cs">
+      <DependentUpon>reparación.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Páginas\Servicios\reparación.aspx.designer.cs">
+      <DependentUpon>reparación.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Páginas\testimonios.aspx.cs">
+      <DependentUpon>testimonios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Páginas\testimonios.aspx.designer.cs">
+      <DependentUpon>testimonios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <Content Include="Site.Master" />
+    <None Include="Properties\PublishProfiles\IISProfile.pubxml" />
+    <Content Include="Páginas\UsrReg\Web.config" />
+    <Content Include="Páginas\Admin\Admin.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BE\BE.csproj">
+      <Project>{6ca81804-367c-4348-abe6-1908ad51b3d8}</Project>
+      <Name>BE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{a3955640-efc7-4512-9120-395567927b84}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Seguridad\Seguridad.csproj">
+      <Project>{0c016861-dc8c-4c7b-9457-04662b524a32}</Project>
+      <Name>Seguridad</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>63222</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44370/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

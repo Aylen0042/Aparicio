@@ -1,0 +1,6 @@
+D:\Desarrollo\VS2019\source\repos\aparicio-refrigeracion.com.ar\Servicios\bin\Release\Servicios.dll
+D:\Desarrollo\VS2019\source\repos\aparicio-refrigeracion.com.ar\Servicios\bin\Release\Servicios.pdb
+D:\Desarrollo\VS2019\source\repos\aparicio-refrigeracion.com.ar\Servicios\obj\Release\Servicios.csproj.AssemblyReference.cache
+D:\Desarrollo\VS2019\source\repos\aparicio-refrigeracion.com.ar\Servicios\obj\Release\Servicios.csproj.CoreCompileInputs.cache
+D:\Desarrollo\VS2019\source\repos\aparicio-refrigeracion.com.ar\Servicios\obj\Release\Servicios.dll
+D:\Desarrollo\VS2019\source\repos\aparicio-refrigeracion.com.ar\Servicios\obj\Release\Servicios.pdb

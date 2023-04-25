@@ -1,0 +1,24 @@
+C:\Users\Asus-NB\Documents\DESARROLLO\VS 2019\GAFI\Servicios\bin\Debug\Servicios.dll
+C:\Users\Asus-NB\Documents\DESARROLLO\VS 2019\GAFI\Servicios\bin\Debug\Servicios.pdb
+C:\Users\Asus-NB\Documents\DESARROLLO\VS 2019\GAFI\Servicios\obj\Debug\Servicios.csproj.AssemblyReference.cache
+C:\Users\Asus-NB\Documents\DESARROLLO\VS 2019\GAFI\Servicios\obj\Debug\Servicios.csproj.CoreCompileInputs.cache
+C:\Users\Asus-NB\Documents\DESARROLLO\VS 2019\GAFI\Servicios\obj\Debug\Servicios.dll
+C:\Users\Asus-NB\Documents\DESARROLLO\VS 2019\GAFI\Servicios\obj\Debug\Servicios.pdb
+D:\Desarrollo\VS2019\source\repos\GAFI\Servicios\bin\Debug\Servicios.dll
+D:\Desarrollo\VS2019\source\repos\GAFI\Servicios\bin\Debug\Servicios.pdb
+D:\Desarrollo\VS2019\source\repos\GAFI\Servicios\obj\Debug\Servicios.csproj.AssemblyReference.cache
+D:\Desarrollo\VS2019\source\repos\GAFI\Servicios\obj\Debug\Servicios.csproj.CoreCompileInputs.cache
+D:\Desarrollo\VS2019\source\repos\GAFI\Servicios\obj\Debug\Servicios.dll
+D:\Desarrollo\VS2019\source\repos\GAFI\Servicios\obj\Debug\Servicios.pdb
+\\SERVIDOR-NAS\Publico\Desarrollo\Aparicio\aparicio-refrigeracion.com.ar\Servicios\bin\Debug\Servicios.dll
+\\SERVIDOR-NAS\Publico\Desarrollo\Aparicio\aparicio-refrigeracion.com.ar\Servicios\bin\Debug\Servicios.pdb
+\\SERVIDOR-NAS\Publico\Desarrollo\Aparicio\aparicio-refrigeracion.com.ar\Servicios\obj\Debug\Servicios.csproj.AssemblyReference.cache
+\\SERVIDOR-NAS\Publico\Desarrollo\Aparicio\aparicio-refrigeracion.com.ar\Servicios\obj\Debug\Servicios.csproj.CoreCompileInputs.cache
+\\SERVIDOR-NAS\Publico\Desarrollo\Aparicio\aparicio-refrigeracion.com.ar\Servicios\obj\Debug\Servicios.dll
+\\SERVIDOR-NAS\Publico\Desarrollo\Aparicio\aparicio-refrigeracion.com.ar\Servicios\obj\Debug\Servicios.pdb
+C:\Datos\Aparicio\aparicio-refrigeracion.com.ar\Servicios\bin\Debug\Servicios.dll
+C:\Datos\Aparicio\aparicio-refrigeracion.com.ar\Servicios\bin\Debug\Servicios.pdb
+C:\Datos\Aparicio\aparicio-refrigeracion.com.ar\Servicios\obj\Debug\Servicios.csproj.AssemblyReference.cache
+C:\Datos\Aparicio\aparicio-refrigeracion.com.ar\Servicios\obj\Debug\Servicios.csproj.CoreCompileInputs.cache
+C:\Datos\Aparicio\aparicio-refrigeracion.com.ar\Servicios\obj\Debug\Servicios.dll
+C:\Datos\Aparicio\aparicio-refrigeracion.com.ar\Servicios\obj\Debug\Servicios.pdb

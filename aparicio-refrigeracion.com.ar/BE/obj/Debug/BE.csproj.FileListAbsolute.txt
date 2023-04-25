@@ -1,0 +1,12 @@
+D:\Desarrollo\VS2019\source\repos\aparicio-refrigeracion.com.ar\BE\bin\Debug\BE.dll
+D:\Desarrollo\VS2019\source\repos\aparicio-refrigeracion.com.ar\BE\bin\Debug\BE.pdb
+D:\Desarrollo\VS2019\source\repos\aparicio-refrigeracion.com.ar\BE\obj\Debug\BE.csproj.AssemblyReference.cache
+D:\Desarrollo\VS2019\source\repos\aparicio-refrigeracion.com.ar\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+D:\Desarrollo\VS2019\source\repos\aparicio-refrigeracion.com.ar\BE\obj\Debug\BE.dll
+D:\Desarrollo\VS2019\source\repos\aparicio-refrigeracion.com.ar\BE\obj\Debug\BE.pdb
+C:\Datos\Aparicio\aparicio-refrigeracion.com.ar\BE\bin\Debug\BE.dll
+C:\Datos\Aparicio\aparicio-refrigeracion.com.ar\BE\bin\Debug\BE.pdb
+C:\Datos\Aparicio\aparicio-refrigeracion.com.ar\BE\obj\Debug\BE.csproj.AssemblyReference.cache
+C:\Datos\Aparicio\aparicio-refrigeracion.com.ar\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\Datos\Aparicio\aparicio-refrigeracion.com.ar\BE\obj\Debug\BE.dll
+C:\Datos\Aparicio\aparicio-refrigeracion.com.ar\BE\obj\Debug\BE.pdb

@@ -1,0 +1,138 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="aparicio.com.ar.Site" %>
+
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Aparicio Raúl Refrigeración">
+    <title>Aparicio Raúl Refrigeración</title>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+    <!-- ICONOS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XC3ZV7NXW6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-XC3ZV7NXW6');
+    </script>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+
+        <nav class="navbar navbar-expand-sm bg-light fixed-top">
+            <div class="container-fluid">
+                <a href="/Default.aspx">
+                    <img src="/Img/aparicio.png" style="width: 150px; height: 75px;" alt="..."/></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" id="inicio" data-bs-slide="inicio" aria-label="inicio">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="d-flex flex-row-reverse">
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/Default.aspx">Inicio</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Cursos</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="/Páginas/Cursos/prox_inicios.aspx">Próximos inicios</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="/Páginas/Cursos/split-automotriz.aspx">Aire acondicionado split y automotriz</a></li>
+                                    <li><a class="dropdown-item" href="/Páginas/Cursos/split.aspx">Aire acondicionado split</a></li>
+                                    <li><a class="dropdown-item" href="/Páginas/Cursos/automotriz.aspx">Aire acondicionado automotriz</a></li>
+                                    <li><a class="dropdown-item" href="/Páginas/Cursos/heladera.aspx">Heladeras familiares y comerciales</a></li>
+                                    <li><a class="dropdown-item" href="/Páginas/Cursos/lavarropa.aspx">Lavarropas</a></li>
+                                    <li><a class="dropdown-item" href="/Páginas/Cursos/transportes_refrigeracion.aspx">Transportes refrigerados</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/Páginas/CursosOnline/CursosOnline.aspx">Cursos Online</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/Páginas/Alumnos/Egresados.aspx">Egresados</a>
+
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/Páginas/Alumnos/TecnicosCertificados.aspx">Técnicos Certificados</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/Páginas/testimonios.aspx">Testimonios</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Servicios</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="/Páginas/Servicios/instalación.aspx">Instalación de equipos A/AC</a></li>
+                                    <li><a class="dropdown-item" href="/Páginas/Servicios/carga_refrigerante.aspx">Carga de gas refrigerante</a></li>
+                                    <li><a class="dropdown-item" href="/Páginas/Servicios/reparación.aspx">Reparación de equipos y fugas</a></li>
+                                    <li><a class="dropdown-item" href="/Páginas/Servicios/mantenimiento.aspx">Mantenimiento</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Productos</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="/Páginas/Productos/equipos.aspx">Equipos</a></li>
+                                    <li><a class="dropdown-item" href="/Páginas/Productos/herramientas.aspx">Herramientas</a></li>
+                                    <li><a class="dropdown-item" href="/Páginas/Productos/insumos.aspx">Insumos</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/Páginas/contacto.aspx">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <div class="col-md-4 d-flex align-items-center">
+                    <span class="mb-3 mb-md-0">© 2022 Refrigeración Aparicio</span>
+                </div>
+
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="ms-3">
+                        <a href="https://wa.me/5492235256164">
+                            <img src="/Img/whatsAapp.png" style="width: 30px; height: 30px;" width="100" height="100" alt="..." />
+                        </a>
+                    </li>
+                    <li class="ms-3">
+                        <a href="https://www.facebook.com/apafriototal/about_contact_and_basic_info">
+                            <img src="/Img/facebook.png" style="width: 30px; height: 30px;" alt="..."/>
+                        </a>
+                    </li>
+                    <li class="ms-3">
+                        <a href="https://www.instagram.com/apafriototal/">
+                            <img src="/Img/instagram.png" style="width:30px; height: 30px;" width="100" height="100" alt="..."/>
+                        </a>
+                    </li>
+                </ul>
+            </footer>
+        </div>
+
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\Desarrollo\VS2019\source\repos\aparicio-refrigeracion.com.ar\aparicio-refrigeracion.com.ar\bin\app.publish\</_PublishTargetUrl>
+    <History>True|2023-04-24T20:45:33.7473795Z;True|2023-01-28T16:26:36.9003898-03:00;False|2022-12-14T14:35:28.4988715-03:00;False|2022-12-14T14:33:32.5320704-03:00;True|2022-12-05T18:51:18.5789546-03:00;True|2022-11-23T14:18:10.3447032-03:00;True|2022-11-23T09:42:26.5706127-03:00;True|2022-11-23T09:26:40.3988626-03:00;True|2022-10-28T20:08:48.3575567-03:00;True|2022-10-27T09:48:57.0587073-03:00;True|2022-10-23T23:49:52.3760205-03:00;True|2022-10-23T23:48:25.0362858-03:00;True|2022-10-23T23:46:28.6634363-03:00;False|2022-10-23T23:45:43.1183565-03:00;False|2022-10-23T23:44:56.1998789-03:00;True|2022-10-23T22:43:27.9876541-03:00;True|2022-10-23T22:00:43.1030400-03:00;True|2022-10-22T00:54:42.6613472-03:00;True|2022-10-21T23:58:49.3829438-03:00;</History>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAFMgc32Uq30OwVFCdGBQgsgAAAAACAAAAAAAQZgAAAAEAACAAAAAnubttM89D4mSMohFFglfcB+EoDp2X7hbPZNDHKtypsgAAAAAOgAAAAAIAACAAAAAgcYIo91RlYuhoB8HWTnaAGOGsL3CCspua2qORRS6KeiAAAAAZtGwVDLAt8HN8lMZmCvLv2hShOr9LmPCMJFBmMyUni0AAAADYNJ84cGxne0wWZXRQ6a9MBOX7kfuQTU3M8inDrTnRz3HkwfnYPnCzkCgoR7724blrK/IUVJ20To4pFyciyUNs</EncryptedPassword>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Data/AparicioRefrigeracion.mdf">
+      <publishTime>10/23/2022 22:43:26</publishTime>
+    </File>
+    <File Include="App_Data/AparicioRefrigeracion_log.ldf">
+      <publishTime>10/23/2022 22:43:26</publishTime>
+    </File>
+    <File Include="bin/aparicio-refrigeracion.com.ar.dll">
+      <publishTime>10/23/2022 22:43:26</publishTime>
+    </File>
+    <File Include="bin/aparicio-refrigeracion.com.ar.pdb">
+      <publishTime>10/23/2022 22:43:26</publishTime>
+    </File>
+    <File Include="bin/BE.dll">
+      <publishTime>10/20/2022 00:17:31</publishTime>
+    </File>
+    <File Include="bin/BE.pdb">
+      <publishTime>10/20/2022 00:17:31</publishTime>
+    </File>
+    <File Include="bin/BLL.dll">
+      <publishTime>10/23/2022 22:43:26</publishTime>
+    </File>
+    <File Include="bin/BLL.pdb">
+      <publishTime>10/23/2022 22:43:26</publishTime>
+    </File>
+    <File Include="bin/DAL.dll">
+      <publishTime>10/23/2022 22:43:26</publishTime>
+    </File>
+    <File Include="bin/DAL.pdb">
+      <publishTime>10/23/2022 22:43:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>05/09/2018 16:10:50</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>08/08/2018 12:18:12</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>08/08/2018 12:18:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>08/08/2018 12:09:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>05/12/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>05/12/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>05/11/2016 18:55:32</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>05/11/2016 18:55:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/16/2018 03:29:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>05/11/2016 18:55:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>05/11/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>05/11/2016 18:55:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>05/11/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Globalization.Calendars.dll">
+      <publishTime>05/11/2016 18:56:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>05/11/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.ZipFile.dll">
+      <publishTime>05/11/2016 18:56:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>05/11/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>05/11/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Http.dll">
+      <publishTime>05/11/2016 18:56:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Sockets.dll">
+      <publishTime>05/11/2016 18:56:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/16/2018 03:29:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll">
+      <publishTime>05/11/2016 18:57:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>05/11/2016 18:57:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>05/11/2016 18:57:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>05/11/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>05/11/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>05/11/2016 18:57:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Tasks.Extensions.dll">
+      <publishTime>05/11/2016 18:57:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>05/11/2016 18:57:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>05/11/2016 18:57:36</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>05/11/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>05/11/2016 18:57:40</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>05/11/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>08/08/2018 12:18:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>08/08/2018 12:09:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>08/08/2018 12:18:16</publishTime>
+    </File>
+    <File Include="bin/Seguridad.dll">
+      <publishTime>10/23/2022 22:43:26</publishTime>
+    </File>
+    <File Include="bin/Seguridad.pdb">
+      <publishTime>10/23/2022 22:43:26</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>10/17/2022 22:52:41</publishTime>
+    </File>
+    <File Include="Img/aparicio_cortado.png">
+      <publishTime>09/10/2022 20:00:06</publishTime>
+    </File>
+    <File Include="Img/Cursos/curso_automotriz.png">
+      <publishTime>10/10/2022 14:21:01</publishTime>
+    </File>
+    <File Include="Img/Cursos/curso_heladera.jpeg">
+      <publishTime>10/15/2022 19:44:42</publishTime>
+    </File>
+    <File Include="Img/Cursos/curso_lavarropa.png">
+      <publishTime>10/10/2022 18:11:13</publishTime>
+    </File>
+    <File Include="Img/Cursos/curso_split.png">
+      <publishTime>10/10/2022 17:07:31</publishTime>
+    </File>
+    <File Include="Img/Cursos/curso_split_automotiz.png">
+      <publishTime>10/15/2022 20:19:36</publishTime>
+    </File>
+    <File Include="Img/Cursos/flyer_automotriz.jpeg">
+      <publishTime>10/10/2022 13:35:23</publishTime>
+    </File>
+    <File Include="Img/Cursos/flyer_camiones.jpeg">
+      <publishTime>10/10/2022 13:34:41</publishTime>
+    </File>
+    <File Include="Img/Cursos/flyer_heladeras.jpeg">
+      <publishTime>10/10/2022 16:49:15</publishTime>
+    </File>
+    <File Include="Img/Cursos/flyer_lavarropas.jpeg">
+      <publishTime>10/10/2022 13:34:05</publishTime>
+    </File>
+    <File Include="Img/Cursos/split.png">
+      <publishTime>10/17/2022 19:17:32</publishTime>
+    </File>
+    <File Include="Img/direccion.png">
+      <publishTime>10/15/2022 13:12:50</publishTime>
+    </File>
+    <File Include="Img/Egresados/egresados_01.jpeg">
+      <publishTime>10/15/2022 11:18:57</publishTime>
+    </File>
+    <File Include="Img/Egresados/egresados_02.jpeg">
+      <publishTime>10/10/2022 16:37:46</publishTime>
+    </File>
+    <File Include="Img/Egresados/egresados_03.jpeg">
+      <publishTime>10/13/2022 11:17:57</publishTime>
+    </File>
+    <File Include="Img/Egresados/egresados_04.jpeg">
+      <publishTime>10/15/2022 11:18:28</publishTime>
+    </File>
+    <File Include="Img/Egresados/egresados_05.jpeg">
+      <publishTime>10/15/2022 11:18:52</publishTime>
+    </File>
+    <File Include="Img/email.png">
+      <publishTime>10/15/2022 13:12:08</publishTime>
+    </File>
+    <File Include="Img/facebook.png">
+      <publishTime>10/15/2022 13:10:42</publishTime>
+    </File>
+    <File Include="Img/Inicio/carga_de_gas.png">
+      <publishTime>02/10/2022 15:48:38</publishTime>
+    </File>
+    <File Include="Img/Inicio/curso_automotriz.png">
+      <publishTime>10/17/2022 22:51:56</publishTime>
+    </File>
+    <File Include="Img/Inicio/curso_split.jpg">
+      <publishTime>10/17/2022 22:31:49</publishTime>
+    </File>
+    <File Include="Img/Inicio/fondo 1.png">
+      <publishTime>01/10/2022 18:48:44</publishTime>
+    </File>
+    <File Include="Img/Inicio/fondo 3.jpeg">
+      <publishTime>01/10/2022 16:37:50</publishTime>
+    </File>
+    <File Include="Img/Inicio/fondo2.png">
+      <publishTime>10/10/2022 11:47:30</publishTime>
+    </File>
+    <File Include="Img/Inicio/heladera.png">
+      <publishTime>01/10/2022 20:45:44</publishTime>
+    </File>
+    <File Include="Img/Inicio/instalacion_de_aire.jpg">
+      <publishTime>02/10/2022 15:37:46</publishTime>
+    </File>
+    <File Include="Img/Inicio/lavarropa.png">
+      <publishTime>01/10/2022 20:52:16</publishTime>
+    </File>
+    <File Include="Img/Inicio/mantenimiento.jpg">
+      <publishTime>02/10/2022 15:37:54</publishTime>
+    </File>
+    <File Include="Img/instagram.png">
+      <publishTime>10/15/2022 13:11:04</publishTime>
+    </File>
+    <File Include="Img/Productos/producto_aire inverter.png">
+      <publishTime>10/10/2022 13:01:59</publishTime>
+    </File>
+    <File Include="Img/Productos/producto_gas.jpg">
+      <publishTime>10/10/2022 13:07:06</publishTime>
+    </File>
+    <File Include="Img/Productos/producto_manifold.png">
+      <publishTime>10/10/2022 13:17:32</publishTime>
+    </File>
+    <File Include="Img/Servicios/carga_refrigerante_automotriz.jpg">
+      <publishTime>10/10/2022 23:03:59</publishTime>
+    </File>
+    <File Include="Img/Servicios/carga_refrigerante_heladera.jpg">
+      <publishTime>10/15/2022 20:35:56</publishTime>
+    </File>
+    <File Include="Img/Servicios/carga_refrigerante_split.jpg">
+      <publishTime>10/10/2022 23:04:36</publishTime>
+    </File>
+    <File Include="Img/Servicios/cassette_aire_acondicionado.jpg">
+      <publishTime>10/10/2022 22:22:24</publishTime>
+    </File>
+    <File Include="Img/Servicios/mantenimiento_split.png">
+      <publishTime>10/15/2022 21:02:50</publishTime>
+    </File>
+    <File Include="Img/Servicios/pisotecho_aire_acondicionado.jpg">
+      <publishTime>10/10/2022 22:25:34</publishTime>
+    </File>
+    <File Include="Img/Servicios/reparacion_automotor.jpeg">
+      <publishTime>10/10/2022 16:34:46</publishTime>
+    </File>
+    <File Include="Img/Servicios/reparacion_split.jpg">
+      <publishTime>10/15/2022 20:12:08</publishTime>
+    </File>
+    <File Include="Img/Servicios/VRV_aire_acondicionado.jpg">
+      <publishTime>10/10/2022 22:27:00</publishTime>
+    </File>
+    <File Include="Img/whatsapp.png">
+      <publishTime>10/15/2022 13:10:08</publishTime>
+    </File>
+    <File Include="Img/youtube.png">
+      <publishTime>10/15/2022 13:11:38</publishTime>
+    </File>
+    <File Include="Páginas/Alumnos/egresados.aspx">
+      <publishTime>10/16/2022 12:44:41</publishTime>
+    </File>
+    <File Include="Páginas/Alumnos/TecnicosCertificados.aspx">
+      <publishTime>10/20/2022 11:05:10</publishTime>
+    </File>
+    <File Include="Páginas/contacto.aspx">
+      <publishTime>10/16/2022 13:28:33</publishTime>
+    </File>
+    <File Include="Páginas/Cursos/automotriz.aspx">
+      <publishTime>10/15/2022 20:23:31</publishTime>
+    </File>
+    <File Include="Páginas/Cursos/heladera.aspx">
+      <publishTime>10/15/2022 20:23:45</publishTime>
+    </File>
+    <File Include="Páginas/Cursos/lavarropa.aspx">
+      <publishTime>10/13/2022 13:02:52</publishTime>
+    </File>
+    <File Include="Páginas/Cursos/prox_inicios.aspx">
+      <publishTime>10/10/2022 19:16:52</publishTime>
+    </File>
+    <File Include="Páginas/Cursos/split-automotriz.aspx">
+      <publishTime>10/15/2022 20:21:02</publishTime>
+    </File>
+    <File Include="Páginas/Cursos/split.aspx">
+      <publishTime>10/13/2022 12:49:45</publishTime>
+    </File>
+    <File Include="Páginas/CursosOnline/CursosOnline.aspx">
+      <publishTime>10/17/2022 22:11:28</publishTime>
+    </File>
+    <File Include="Páginas/Productos/equipos.aspx">
+      <publishTime>10/13/2022 12:52:27</publishTime>
+    </File>
+    <File Include="Páginas/Productos/herramientas.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Páginas/Productos/insumos.aspx">
+      <publishTime>10/13/2022 12:51:44</publishTime>
+    </File>
+    <File Include="Páginas/Servicios/carga_refrigerante.aspx">
+      <publishTime>10/16/2022 12:38:50</publishTime>
+    </File>
+    <File Include="Páginas/Servicios/instalación.aspx">
+      <publishTime>10/16/2022 12:39:16</publishTime>
+    </File>
+    <File Include="Páginas/Servicios/mantenimiento.aspx">
+      <publishTime>10/16/2022 12:37:18</publishTime>
+    </File>
+    <File Include="Páginas/Servicios/reparación.aspx">
+      <publishTime>10/16/2022 12:39:40</publishTime>
+    </File>
+    <File Include="Páginas/testimonios.aspx">
+      <publishTime>10/10/2022 19:21:11</publishTime>
+    </File>
+    <File Include="Site.Master">
+      <publishTime>10/19/2022 22:50:42</publishTime>
+    </File>
+    <File Include="Videos/video_01.mp4">
+      <publishTime>02/10/2022 14:39:32</publishTime>
+    </File>
+    <File Include="Videos/video_02.mp4">
+      <publishTime>02/10/2022 14:40:12</publishTime>
+    </File>
+    <File Include="Videos/video_03.mp4">
+      <publishTime>02/10/2022 14:40:32</publishTime>
+    </File>
+    <File Include="Videos/video_04.mp4">
+      <publishTime>02/10/2022 14:54:22</publishTime>
+    </File>
+    <File Include="Videos/video_05.mp4">
+      <publishTime>02/10/2022 15:07:38</publishTime>
+    </File>
+    <File Include="Videos/video_06.mp4">
+      <publishTime>02/10/2022 15:07:50</publishTime>
+    </File>
+    <File Include="Videos/video_07.mp4">
+      <publishTime>02/10/2022 15:09:46</publishTime>
+    </File>
+    <File Include="Videos/video_08.mp4">
+      <publishTime>02/10/2022 15:13:12</publishTime>
+    </File>
+    <File Include="Videos/video_09.mp4">
+      <publishTime>02/10/2022 15:33:52</publishTime>
+    </File>
+    <File Include="Videos/video_10.mp4">
+      <publishTime>02/10/2022 15:32:38</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/22/2022 00:54:42</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
