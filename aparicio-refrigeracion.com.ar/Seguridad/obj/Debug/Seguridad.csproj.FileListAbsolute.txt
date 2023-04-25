@@ -30,3 +30,11 @@ C:\Datos\Aparicio\aparicio-refrigeracion.com.ar\Seguridad\obj\Debug\Seguridad.cs
 C:\Datos\Aparicio\aparicio-refrigeracion.com.ar\Seguridad\obj\Debug\Seguridad.csproj.CoreCompileInputs.cache
 C:\Datos\Aparicio\aparicio-refrigeracion.com.ar\Seguridad\obj\Debug\Seguridad.dll
 C:\Datos\Aparicio\aparicio-refrigeracion.com.ar\Seguridad\obj\Debug\Seguridad.pdb
+C:\Users\Laboratorio\Source\Repos\Aparicio\aparicio-refrigeracion.com.ar\Seguridad\bin\Debug\Seguridad.dll
+C:\Users\Laboratorio\Source\Repos\Aparicio\aparicio-refrigeracion.com.ar\Seguridad\bin\Debug\Seguridad.pdb
+C:\Users\Laboratorio\Source\Repos\Aparicio\aparicio-refrigeracion.com.ar\Seguridad\obj\Debug\Seguridad.csproj.AssemblyReference.cache
+C:\Users\Laboratorio\Source\Repos\Aparicio\aparicio-refrigeracion.com.ar\Seguridad\obj\Debug\Seguridad.Properties.Resources.resources
+C:\Users\Laboratorio\Source\Repos\Aparicio\aparicio-refrigeracion.com.ar\Seguridad\obj\Debug\Seguridad.csproj.GenerateResource.cache
+C:\Users\Laboratorio\Source\Repos\Aparicio\aparicio-refrigeracion.com.ar\Seguridad\obj\Debug\Seguridad.csproj.CoreCompileInputs.cache
+C:\Users\Laboratorio\Source\Repos\Aparicio\aparicio-refrigeracion.com.ar\Seguridad\obj\Debug\Seguridad.dll
+C:\Users\Laboratorio\Source\Repos\Aparicio\aparicio-refrigeracion.com.ar\Seguridad\obj\Debug\Seguridad.pdb

@@ -184,7 +184,7 @@
     <Content Include="Páginas\Cursos\heladera.aspx" />
     <Content Include="Páginas\Cursos\lavarropa.aspx" />
     <Content Include="Páginas\Cursos\prox_inicios.aspx" />
-    <Content Include="Páginas\Cursos\transportes_refrigeracion.aspx" />
+    <Content Include="Páginas\Cursos\transportes_refrigerados.aspx" />
     <Content Include="Páginas\Cursos\split-automotriz.aspx" />
     <Content Include="Páginas\Cursos\split.aspx" />
     <Content Include="Páginas\Productos\equipos.aspx" />
@@ -301,12 +301,12 @@
     <Compile Include="Páginas\Cursos\prox_inicios.aspx.designer.cs">
       <DependentUpon>prox_inicios.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Páginas\Cursos\transportes_refrigeracion.aspx.cs">
-      <DependentUpon>transportes_refrigeracion.aspx</DependentUpon>
+    <Compile Include="Páginas\Cursos\transportes_refrigerados.aspx.cs">
+      <DependentUpon>transportes_refrigerados.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Páginas\Cursos\transportes_refrigeracion.aspx.designer.cs">
-      <DependentUpon>transportes_refrigeracion.aspx</DependentUpon>
+    <Compile Include="Páginas\Cursos\transportes_refrigerados.aspx.designer.cs">
+      <DependentUpon>transportes_refrigerados.aspx</DependentUpon>
     </Compile>
     <Compile Include="Páginas\Cursos\split-automotriz.aspx.cs">
       <DependentUpon>split-automotriz.aspx</DependentUpon>

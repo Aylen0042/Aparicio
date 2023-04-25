@@ -4,3 +4,9 @@ D:\Desarrollo\VS2019\source\repos\aparicio-refrigeracion.com.ar\Servicios\obj\Re
 D:\Desarrollo\VS2019\source\repos\aparicio-refrigeracion.com.ar\Servicios\obj\Release\Servicios.csproj.CoreCompileInputs.cache
 D:\Desarrollo\VS2019\source\repos\aparicio-refrigeracion.com.ar\Servicios\obj\Release\Servicios.dll
 D:\Desarrollo\VS2019\source\repos\aparicio-refrigeracion.com.ar\Servicios\obj\Release\Servicios.pdb
+C:\Users\Laboratorio\Source\Repos\Aparicio\aparicio-refrigeracion.com.ar\Servicios\bin\Release\Servicios.dll
+C:\Users\Laboratorio\Source\Repos\Aparicio\aparicio-refrigeracion.com.ar\Servicios\bin\Release\Servicios.pdb
+C:\Users\Laboratorio\Source\Repos\Aparicio\aparicio-refrigeracion.com.ar\Servicios\obj\Release\Servicios.csproj.AssemblyReference.cache
+C:\Users\Laboratorio\Source\Repos\Aparicio\aparicio-refrigeracion.com.ar\Servicios\obj\Release\Servicios.csproj.CoreCompileInputs.cache
+C:\Users\Laboratorio\Source\Repos\Aparicio\aparicio-refrigeracion.com.ar\Servicios\obj\Release\Servicios.dll
+C:\Users\Laboratorio\Source\Repos\Aparicio\aparicio-refrigeracion.com.ar\Servicios\obj\Release\Servicios.pdb

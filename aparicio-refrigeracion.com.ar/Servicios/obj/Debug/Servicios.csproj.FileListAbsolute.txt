@@ -22,3 +22,9 @@ C:\Datos\Aparicio\aparicio-refrigeracion.com.ar\Servicios\obj\Debug\Servicios.cs
 C:\Datos\Aparicio\aparicio-refrigeracion.com.ar\Servicios\obj\Debug\Servicios.csproj.CoreCompileInputs.cache
 C:\Datos\Aparicio\aparicio-refrigeracion.com.ar\Servicios\obj\Debug\Servicios.dll
 C:\Datos\Aparicio\aparicio-refrigeracion.com.ar\Servicios\obj\Debug\Servicios.pdb
+C:\Users\Laboratorio\Source\Repos\Aparicio\aparicio-refrigeracion.com.ar\Servicios\bin\Debug\Servicios.dll
+C:\Users\Laboratorio\Source\Repos\Aparicio\aparicio-refrigeracion.com.ar\Servicios\bin\Debug\Servicios.pdb
+C:\Users\Laboratorio\Source\Repos\Aparicio\aparicio-refrigeracion.com.ar\Servicios\obj\Debug\Servicios.csproj.AssemblyReference.cache
+C:\Users\Laboratorio\Source\Repos\Aparicio\aparicio-refrigeracion.com.ar\Servicios\obj\Debug\Servicios.csproj.CoreCompileInputs.cache
+C:\Users\Laboratorio\Source\Repos\Aparicio\aparicio-refrigeracion.com.ar\Servicios\obj\Debug\Servicios.dll
+C:\Users\Laboratorio\Source\Repos\Aparicio\aparicio-refrigeracion.com.ar\Servicios\obj\Debug\Servicios.pdb

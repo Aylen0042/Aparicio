@@ -10,3 +10,9 @@ C:\Datos\Aparicio\aparicio-refrigeracion.com.ar\BE\obj\Debug\BE.csproj.AssemblyR
 C:\Datos\Aparicio\aparicio-refrigeracion.com.ar\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
 C:\Datos\Aparicio\aparicio-refrigeracion.com.ar\BE\obj\Debug\BE.dll
 C:\Datos\Aparicio\aparicio-refrigeracion.com.ar\BE\obj\Debug\BE.pdb
+C:\Users\Laboratorio\Source\Repos\Aparicio\aparicio-refrigeracion.com.ar\BE\bin\Debug\BE.dll
+C:\Users\Laboratorio\Source\Repos\Aparicio\aparicio-refrigeracion.com.ar\BE\bin\Debug\BE.pdb
+C:\Users\Laboratorio\Source\Repos\Aparicio\aparicio-refrigeracion.com.ar\BE\obj\Debug\BE.csproj.AssemblyReference.cache
+C:\Users\Laboratorio\Source\Repos\Aparicio\aparicio-refrigeracion.com.ar\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\Users\Laboratorio\Source\Repos\Aparicio\aparicio-refrigeracion.com.ar\BE\obj\Debug\BE.dll
+C:\Users\Laboratorio\Source\Repos\Aparicio\aparicio-refrigeracion.com.ar\BE\obj\Debug\BE.pdb

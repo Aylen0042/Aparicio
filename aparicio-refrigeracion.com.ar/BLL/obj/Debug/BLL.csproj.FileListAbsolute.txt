@@ -37,3 +37,16 @@ C:\Datos\Aparicio\aparicio-refrigeracion.com.ar\BLL\obj\Debug\BLL.csproj.CoreCom
 C:\Datos\Aparicio\aparicio-refrigeracion.com.ar\BLL\obj\Debug\BLL.csproj.CopyComplete
 C:\Datos\Aparicio\aparicio-refrigeracion.com.ar\BLL\obj\Debug\BLL.dll
 C:\Datos\Aparicio\aparicio-refrigeracion.com.ar\BLL\obj\Debug\BLL.pdb
+C:\Users\Laboratorio\Source\Repos\Aparicio\aparicio-refrigeracion.com.ar\BLL\bin\Debug\BLL.dll
+C:\Users\Laboratorio\Source\Repos\Aparicio\aparicio-refrigeracion.com.ar\BLL\bin\Debug\BLL.pdb
+C:\Users\Laboratorio\Source\Repos\Aparicio\aparicio-refrigeracion.com.ar\BLL\bin\Debug\BE.dll
+C:\Users\Laboratorio\Source\Repos\Aparicio\aparicio-refrigeracion.com.ar\BLL\bin\Debug\DAL.dll
+C:\Users\Laboratorio\Source\Repos\Aparicio\aparicio-refrigeracion.com.ar\BLL\bin\Debug\Seguridad.dll
+C:\Users\Laboratorio\Source\Repos\Aparicio\aparicio-refrigeracion.com.ar\BLL\bin\Debug\BE.pdb
+C:\Users\Laboratorio\Source\Repos\Aparicio\aparicio-refrigeracion.com.ar\BLL\bin\Debug\DAL.pdb
+C:\Users\Laboratorio\Source\Repos\Aparicio\aparicio-refrigeracion.com.ar\BLL\bin\Debug\Seguridad.pdb
+C:\Users\Laboratorio\Source\Repos\Aparicio\aparicio-refrigeracion.com.ar\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\Laboratorio\Source\Repos\Aparicio\aparicio-refrigeracion.com.ar\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Laboratorio\Source\Repos\Aparicio\aparicio-refrigeracion.com.ar\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\Laboratorio\Source\Repos\Aparicio\aparicio-refrigeracion.com.ar\BLL\obj\Debug\BLL.dll
+C:\Users\Laboratorio\Source\Repos\Aparicio\aparicio-refrigeracion.com.ar\BLL\obj\Debug\BLL.pdb
